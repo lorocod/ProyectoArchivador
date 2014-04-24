@@ -1,0 +1,229 @@
+/* 
+    Document   : estilo1
+    Created on : 01-ago-2013, 15:15:24
+    Author     : Fernando
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    margin: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    background-image: url('/images/fondos/bg.png')
+}
+.nav-top-fija{
+    top:0;
+    display: block;
+    left:0;
+    right: 0;
+    position: fixed;
+    margin-bottom: 0;
+    background-color: #2c2c2c;
+    
+}
+
+.navbar-inner{
+    height: 40px;
+    
+    display: block;
+    
+}
+.nav-container{
+    
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-logo{
+    float: left;
+    color: #c9c9c9;
+    
+    
+}
+.nav-ul-izq{    
+    display: inline-block;;
+    float: left;
+    left: 0;    
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-ul-der{
+    float: right;
+    display: inline-block;
+    margin: 0px;
+}
+.nav-container li{
+    display: block;
+    float: left;
+    color: #c9c9c9;
+    
+    padding: 10px;
+    padding-right: 5px;
+    
+    
+}
+.container-main{
+    margin-top: 60px;
+    padding: 20px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.page-header{
+    margin: 18px 0;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.contenido{
+    min-height: 800px;
+}
+.footer-personalizado{
+    margin-top: 55px;
+}
+.contenido-footer-top{
+    background: url("/images/fondos/footerbg.jpg") repeat-x scroll 0 0 #000000;
+    padding-bottom: 50px;
+}
+
+.row{
+    display: table;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+}
+
+.three.columns{
+    width: 23%;
+}
+.columns{
+    float: left;
+    margin-left: 2%;
+    
+}
+.footer_menu{
+    background: url("/images/fondos/footer_menu_bg.png") no-repeat scroll right 20px transparent;
+    height: auto;
+    padding-left: 6%;
+    width: 94%;
+}
+.footer-personalizado h3 {
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #68C3FF;
+    font-family: 'BebasNeueRegular';
+    font-size: 26px;
+    height: auto;
+    padding-left: 0;
+    padding-top: 13px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+.footer_menu ul{
+    height: auto;
+    list-style: none outside none;
+    margin-left: 0;
+    padding-top: 13px;
+    width: 100%;
+    padding-left: 0px;
+}
+.footer_menu ul li{
+    margin-bottom: 10px;
+}
+.footer_menu ul li a {
+    color: #C7C7C7;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: auto;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+.contenido-footer-bottom{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    background: none repeat scroll 0 0 #000000;
+}
+.twelve{
+    width: 100%;
+}
+.footer_bottom_menu {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    width: 30%;
+}
+.footer_bottom_menu ul{
+    margin: 7px 0 0;
+    list-style: none outside none;
+}
+.footer_bottom_menu ul li{
+    margin-bottom: 4px;
+    margin-top: 0;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}    
+.footer_bottom_menu ul li a {
+    color: #C7C7C7;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer_copywrite {
+    float: right;
+    height: auto;
+    padding-top: 15px;
+    width: 70%;
+}
+.footer_copywrite ul {
+     margin: 7px 0 0;
+}
+.footer_copywrite ul li {
+    color: #999999;
+    float: left;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    height: auto;
+    list-style: none outside none;
+    width: 55%;
+}
+
+.footer_copywrite ul li.last {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 5%;
+    width: 40%;
+}
+.page-contenido{
+    float: left;
+}
+
+.page-sidebar{
+    display: inline-block;
+    width: 250px;
+    float: right;
+    border: 1px solid #e5e5e5;
+        
+}
+.sidebar-contenido{
+    
+}
+.sidebar-contenido ul{
+    text-decoration: none;
+    list-style: none outside none;
+}

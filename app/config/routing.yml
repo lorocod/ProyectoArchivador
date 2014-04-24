@@ -1,0 +1,5 @@
+gema_archivador:
+    resource: "@GemaArchivadorBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
